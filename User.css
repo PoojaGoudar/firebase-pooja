@@ -1,0 +1,42 @@
+
+/* User.css */
+.user-info {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 340px;
+    transition: all 0.3s ease;
+}
+
+.user-info:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+.user-info h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.user-info p {
+    color: #555;
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.user-info p span {
+    color: #00796b;
+    font-weight: 500;
+}
+
+.user-info .location {
+    font-size: 16px;
+    color: #006064;
+    font-weight: 400;
+    margin-top: 10px;
+}
